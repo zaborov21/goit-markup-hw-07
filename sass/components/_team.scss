@@ -68,12 +68,14 @@
   background-color: $primary-white-color;
   border-radius: 50%;
 
-  transition: color $time $time-function, background-color $time $time-function;
+  transition: color $time $time-function;
 
   &:hover,
   &:focus {
     background-color: $accent-color;
     color: $primary-white-color;
+
+    transition: color $time $time-function, background-color $time $time-function;
   }
 }
 .social-list__icon {

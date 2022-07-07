@@ -25,7 +25,7 @@
   border: 1px solid $clients-color;
   border-radius: 4px;
 
-  transition: border-color $time $time-function;
+  transition: color $time $time-function, border-color $time $time-function;
 
   &:hover,
   &:focus {
@@ -35,5 +35,4 @@
 }
 .clients-list__icon {
   fill: currentColor;
-  transition: color $time $time-function;
 }
